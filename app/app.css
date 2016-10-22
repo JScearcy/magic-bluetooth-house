@@ -35,8 +35,20 @@ button {
     border-radius: 15; 
 }
 
+.disconnect-button,
+.write-button,
 .scan-button {
     font-size: 25;
     width: 80%;
-    margin-bottom: 10;
+    margin-bottom: 15;
+}
+
+.scan-button {
+    margin-top: 15;
+}
+
+.nothing {
+    margin-top: 20;
+    font-size: 25;
+    text-align: center;
 }

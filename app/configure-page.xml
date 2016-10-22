@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <ActionBar title="Magic House: Device" android.icon="res://icon" android.iconVisibility="always"></ActionBar>
+  <StackLayout>
+    <Label text="{{ title }}" class="title" />
+    <Button text="Whisper" onTap="{{ whisper }}" class="btn btn-primary write-button" />
+    <Button text="Yell" onTap="{{ yell }}" class="btn btn-primary write-button" />
+    <Button text="Disconnect" onTap="{{ disconnectTap }}" class="btn btn-default disconnect-button" />
+    <Button text="Stop" onTap="{{ clear }}" class="btn btn-primary write-button" />
+  </StackLayout>
+</Page>

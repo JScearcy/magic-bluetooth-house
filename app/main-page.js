@@ -11,7 +11,3 @@ exports.bluetoothTap = function(args) {
     var item = args.object;
     instanceViewModel.connect(item.id);
 }
-
-exports.scan = function() {
-    instanceViewModel.scan();
-}

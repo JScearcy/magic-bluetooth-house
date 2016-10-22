@@ -1,125 +1,141 @@
 {
-    "UUID":"a495ff20-c5b1-4b44-b512-1370f02d74de",
-    "characteristics": [
+    "UUID":"00:0B:57:0C:25:2D",
+    "name":"BGM111 gecko4",
+    "state":"connected",
+    "services":[
         {
-            "UUID":"a495ff21-c5b1-4b44-b512-1370f02d74de",
-            "name":"a495ff21-c5b1-4b44-b512-1370f02d74de",
-            "properties": {
-                "read":true,
-                "write":true,
-                "writeWithoutResponse":true,
-                "notify":true,
-                "indicate":false,
-                "broadcast":false,
-                "authenticatedSignedWrites":false,
-                "extendedProperties":false
-                },
-            "descriptors": [
+            "UUID":"1800",
+            "characteristics":[
                 {
-                    "UUID":"2902",
-                    "value":null
+                    "UUID":"2a00",
+                    "name":"2a00",
+                    "properties": {
+                        "read":true,
+                        "write":false,
+                        "writeWithoutResponse":false,
+                        "notify":false,
+                        "indicate":false,
+                        "broadcast":false,
+                        "authenticatedSignedWrites":false,
+                        "extendedProperties":false
+                        },
+                    "descriptors":[]
                 },
                 {
-                    "UUID":"2901",
-                    "value":null
+                    "UUID":"2a01",
+                    "name":"2a01",
+                    "properties": {
+                        "read":true,
+                        "write":false,
+                        "writeWithoutResponse":false,
+                        "notify":false,
+                        "indicate":false,
+                        "broadcast":false,
+                        "authenticatedSignedWrites":false,
+                        "extendedProperties":false
+                    },
+                    "descriptors":[]
                 }
             ]
         },
         {
-            "UUID":"a495ff22-c5b1-4b44-b512-1370f02d74de",
-            "name":"a495ff22-c5b1-4b44-b512-1370f02d74de",
-            "properties": {
-                "read":true,
-                "write":true,
-                "writeWithoutResponse":true,
-                "notify":true,
-                "indicate":false,
-                "broadcast":false,
-                "authenticatedSignedWrites":false,
-                "extendedProperties":false
-            },
-            "descriptors": [
+            "UUID":"180a",
+            "characteristics": [
                 {
-                    "UUID":"2902",
-                    "value":null
+                    "UUID":"2a29",
+                    "name":"2a29",
+                    "properties": {
+                        "read":true,
+                        "write":false,
+                        "writeWithoutResponse":false,
+                        "notify":false,
+                        "indicate":false,
+                        "broadcast":false,
+                        "authenticatedSignedWrites":false,
+                        "extendedProperties":false
+                    },
+                "descriptors":[]
                 },
                 {
-                    "UUID":"2901",
-                    "value":null
+                    "UUID":"2a24",
+                    "name":"2a24",
+                    "properties":{
+                        "read":true,
+                        "write":false,
+                        "writeWithoutResponse":false,
+                        "notify":false,
+                        "indicate":false,
+                        "broadcast":false,
+                        "authenticatedSignedWrites":false,
+                        "extendedProperties":false
+                    },
+                    "descriptors":[]
+                },
+                {
+                    "UUID":"2a23",
+                    "name":"2a23",
+                    "properties": {
+                        "read":true,
+                        "write":false,
+                        "writeWithoutResponse":false,
+                        "notify":false,
+                        "indicate":false,
+                        "broadcast":false,
+                        "authenticatedSignedWrites":false,
+                        "extendedProperties":false
+                    },
+                    "descriptors":[]
                 }
             ]
         },
         {
-            "UUID":"a495ff23-c5b1-4b44-b512-1370f02d74de",
-            "name":"a495ff23-c5b1-4b44-b512-1370f02d74de",
-            "properties": {
-                "read":true,
-                "write":true,
-                "writeWithoutResponse":true,
-                "notify":true,
-                "indicate":false,
-                "broadcast":false,
-                "authenticatedSignedWrites":false,
-                "extendedProperties":false
-            },
-            "descriptors":[ 
+            "UUID":"8409f408-63e3-4eea-aaf4-762ddec5319c",
+            "characteristics": [
                 {
-                    "UUID":"2902",
-                    "value":null
+                    "UUID":"c5402b08-aee7-4892-b5c6-5b576203246b",
+                    "name":"c5402b08-aee7-4892-b5c6-5b576203246b",
+                    "properties": {
+                        "read":true,
+                        "write":true,
+                        "writeWithoutResponse":false,
+                        "notify":false,
+                        "indicate":false,
+                        "broadcast":false,
+                        "authenticatedSignedWrites":false,
+                        "extendedProperties":false
+                    },
+                    "descriptors":[
+                        {
+                            "UUID":"2901",
+                            "value":null
+                        }
+                    ]
                 },
                 {
-                    "UUID":"2901",
-                    "value":null
-                }
-            ]
-        },
-        {
-            "UUID":"a495ff24-c5b1-4b44-b512-1370f02d74de",
-            "name":"a495ff24-c5b1-4b44-b512-1370f02d74de",
-            "properties": {
-                "read":true,
-                "write":true,
-                "writeWithoutResponse":true,
-                "notify":true,
-                "indicate":false,
-                "broadcast":false,
-                "authenticatedSignedWrites":false,
-                "extendedProperties":false
-            },
-            "descriptors":[
-                {
-                    "UUID":"2902",
-                    "value":null
-                },
-                {
-                    "UUID":"2901",
-                    "value":null
-                }
-            ]
-        },
-        {
-            "UUID":"a495ff25-c5b1-4b44-b512-1370f02d74de",
-            "name":"a495ff25-c5b1-4b44-b512-1370f02d74de",
-            "properties":{
-                "read":true,
-                "write":true,
-                "writeWithoutResponse":true,
-                "notify":true,
-                "indicate":false,
-                "broadcast":false,
-                "authenticatedSignedWrites":false,
-                "extendedProperties":false
-            },
-            "descriptors": [
-                {
-                    "UUID":"2902",
-                    "value":null
-                },
-                {
-                    "UUID":"2901",
-                    "value":null
+                    "UUID":"53de9102-a5ac-4df9-9afa-b63cfbe3df6e",
+                    "name":"53de9102-a5ac-4df9-9afa-b63cfbe3df6e",
+                    "properties": {
+                        "read":false,
+                        "write":false,
+                        "writeWithoutResponse":false,
+                        "notify":true,
+                        "indicate":false,
+                        "broadcast":false,
+                        "authenticatedSignedWrites":false,
+                        "extendedProperties":false
+                    },
+                    "descriptors": [
+                        {
+                            "UUID":"2902",
+                            "value":null
+                        },
+                        {
+                            "UUID":"2901",
+                            "value":null
+                        }
+                    ]
                 }
             ]
         }
     ]
-}                                        
+}   
