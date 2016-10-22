@@ -1,12 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
   <ActionBar title="Magic House: Devices" android.icon="res://icon" android.iconVisibility="always"></ActionBar>
   <StackLayout>
-    <Button text="Scan" tap="{{ scan }}" class="btn btn-primary scan-button" />
-    <Label text="Nothing Found!" visibility="{{ (peripherals.length > 0 && !scanning) || scanning ? 'collapsed' : 'visible' }}" class="nothing" />
-    <ListView items="{{ peripherals }}">
-      <ListView.itemTemplate>
-        <Button text="{{ name }}" id="{{ UUID }}" tap="bluetoothTap" class="btn btn-default" />
-      </ListView.itemTemplate>
-    </ListView>
+    <Button text="Connect" tap="{{ connect }}" class="btn btn-primary scan-button" />
+    <Button text="View Home" tap="{{ viewHome }}" class="btn btn-primary scan-button" />
   </StackLayout>
 </Page>

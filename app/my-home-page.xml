@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <ActionBar title="Magic House: My Home" android.icon="res://icon" android.iconVisibility="always"></ActionBar>
+  <StackLayout>
+    <Button text="Refresh" onTap="{{ refresh }}" class="btn btn-default refresh-button" />
+    <TextField text="{{ 'Front-Door: ' + frontDoorStatus }}" />
+    <TextField text="{{ 'Person: ' + personStatus }}" />
+    <TextField text="{{ 'Garage: ' + garageStatus }}" />
+    <TextField text="{{ 'Mailbox: ' + mailboxStatus }}" />
+  </StackLayout>
+</Page>

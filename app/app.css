@@ -35,6 +35,7 @@ button {
     border-radius: 15; 
 }
 
+.refresh-button,
 .disconnect-button,
 .write-button,
 .scan-button {
@@ -43,6 +44,7 @@ button {
     margin-bottom: 15;
 }
 
+.refresh-button,
 .scan-button {
     margin-top: 15;
 }
