@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Label text="{{ title }}" class="title"/>
+    <Button text="Scan" tap="scan" class="btn btn-primary scan-button" />
+    <ListView items="{{ peripherals }}">
+      <ListView.itemTemplate>
+        <Button text="{{ name }}" id="{{ UUID }}" tap="bluetoothTap" class="btn btn-default" />
+      </ListView.itemTemplate>
+    </ListView>
+  </StackLayout>
+</Page>

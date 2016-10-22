@@ -1,0 +1,42 @@
+﻿.title {
+    font-size: 30;
+    horizontal-align: center;
+    margin: 20;
+}
+
+button {
+    font-size: 42;
+    horizontal-align: center;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    horizontal-align: center;
+    margin: 0 20;
+    text-align: center;
+}
+
+.btn {
+    font-size: 20;
+}
+
+.btn-default {
+    background-color: #f9f9f9;
+    border-color: #000;
+    border-width: 1;
+    border-radius: 15;
+    width: 80%;
+}
+
+.btn-primary {
+    background-color: #428bca;
+    color: #FFF;
+    border-radius: 15; 
+}
+
+.scan-button {
+    font-size: 25;
+    width: 80%;
+    margin-bottom: 10;
+}
