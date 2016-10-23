@@ -38,6 +38,7 @@ function createViewModel() {
                     break;
                 case "itm_Garage_door":
                     a.itm_Garage_door = c;
+
                     break;
                 case "itm_Mailbox":
                     a.itm_Mailbox = c;
@@ -52,7 +53,7 @@ function createViewModel() {
 
         viewModel.set("frontDoorStatus", setStatus(items.itm_Front_door.state));
         viewModel.set("personStatus", setStatus(items.itm_Person.state, "Present", "Not Present"));
-        viewModel.set("garageStatus", setStatus(items.itm_Garage_door.state));
+        viewModel.set("garageStatus", setStatus(items.itm_Garage_door.state, "Open", "Closed"));
         viewModel.set("mailboxStatus", setStatus(items.itm_Mailbox.state));
         loader.hide();
     }

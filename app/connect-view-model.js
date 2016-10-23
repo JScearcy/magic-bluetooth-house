@@ -74,6 +74,7 @@ function createViewModel() {
                         bluetoothDevices.push(peripheral);
                     }
                     }).then(function() {
+                        console.log(JSON.stringify(bluetoothDevices));
                         var namedPeripherals = bluetoothDevices.filter((per) => validAdvertisements.includes(per.advertisement));
                         viewModel.set("peripherals", namedPeripherals);
                         loader.hide();
